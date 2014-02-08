@@ -4,8 +4,9 @@ STARnotes is a simple app that allows individuals to practice the S.T.A.R method
 
 The S.T.A.R. method is defined as the following:
 
-* *S*ituation
-* *T*ask
-* *A*ction
-* *R*esults
+* **S**ituation
+* **T**ask
+* **A**ction
+* **R**esults
 
+Refer to the [wiki](https://github.com/mlaguren/STARnotes/wiki) for more details
