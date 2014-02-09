@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		607476DE18A726EC007D8FFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607476DD18A726EC007D8FFC /* Foundation.framework */; };
+		607476E018A726EC007D8FFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607476DF18A726EC007D8FFC /* CoreGraphics.framework */; };
+		607476E218A726EC007D8FFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607476E118A726EC007D8FFC /* UIKit.framework */; };
+		607476E818A726EC007D8FFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607476E618A726EC007D8FFC /* InfoPlist.strings */; };
+		607476EA18A726EC007D8FFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607476E918A726EC007D8FFC /* main.m */; };
+		607476EE18A726EC007D8FFC /* STARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 607476ED18A726EC007D8FFC /* STARAppDelegate.m */; };
+		607476F018A726EC007D8FFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607476EF18A726EC007D8FFC /* Images.xcassets */; };
+		607476F718A726EC007D8FFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607476F618A726EC007D8FFC /* XCTest.framework */; };
+		607476F818A726EC007D8FFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607476DD18A726EC007D8FFC /* Foundation.framework */; };
+		607476F918A726EC007D8FFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607476E118A726EC007D8FFC /* UIKit.framework */; };
+		6074770118A726EC007D8FFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607476FF18A726EC007D8FFC /* InfoPlist.strings */; };
+		6074770318A726EC007D8FFC /* STARnoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6074770218A726EC007D8FFC /* STARnoteTests.m */; };
+		6074770D18A72743007D8FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6074770C18A72743007D8FFC /* Main.storyboard */; };
+		6079640D18A72B09000F6AD0 /* star_gold_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 6079640C18A72B09000F6AD0 /* star_gold_256.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607476FA18A726EC007D8FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607476D218A726EC007D8FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607476D918A726EC007D8FFC;
+			remoteInfo = STARnote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		607476DA18A726EC007D8FFC /* STARnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STARnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607476DD18A726EC007D8FFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		607476DF18A726EC007D8FFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		607476E118A726EC007D8FFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		607476E518A726EC007D8FFC /* STARnote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STARnote-Info.plist"; sourceTree = "<group>"; };
+		607476E718A726EC007D8FFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		607476E918A726EC007D8FFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		607476EB18A726EC007D8FFC /* STARnote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STARnote-Prefix.pch"; sourceTree = "<group>"; };
+		607476EC18A726EC007D8FFC /* STARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STARAppDelegate.h; sourceTree = "<group>"; };
+		607476ED18A726EC007D8FFC /* STARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STARAppDelegate.m; sourceTree = "<group>"; };
+		607476EF18A726EC007D8FFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607476F518A726EC007D8FFC /* STARnoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STARnoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607476F618A726EC007D8FFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		607476FE18A726EC007D8FFC /* STARnoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STARnoteTests-Info.plist"; sourceTree = "<group>"; };
+		6074770018A726EC007D8FFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6074770218A726EC007D8FFC /* STARnoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STARnoteTests.m; sourceTree = "<group>"; };
+		6074770C18A72743007D8FFC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6079640C18A72B09000F6AD0 /* star_gold_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_gold_256.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607476D718A726EC007D8FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607476E018A726EC007D8FFC /* CoreGraphics.framework in Frameworks */,
+				607476E218A726EC007D8FFC /* UIKit.framework in Frameworks */,
+				607476DE18A726EC007D8FFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607476F218A726EC007D8FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607476F718A726EC007D8FFC /* XCTest.framework in Frameworks */,
+				607476F918A726EC007D8FFC /* UIKit.framework in Frameworks */,
+				607476F818A726EC007D8FFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607476D118A726EC007D8FFC = {
+			isa = PBXGroup;
+			children = (
+				607476E318A726EC007D8FFC /* STARnote */,
+				607476FC18A726EC007D8FFC /* STARnoteTests */,
+				607476DC18A726EC007D8FFC /* Frameworks */,
+				607476DB18A726EC007D8FFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		607476DB18A726EC007D8FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607476DA18A726EC007D8FFC /* STARnote.app */,
+				607476F518A726EC007D8FFC /* STARnoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607476DC18A726EC007D8FFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607476DD18A726EC007D8FFC /* Foundation.framework */,
+				607476DF18A726EC007D8FFC /* CoreGraphics.framework */,
+				607476E118A726EC007D8FFC /* UIKit.framework */,
+				607476F618A726EC007D8FFC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607476E318A726EC007D8FFC /* STARnote */ = {
+			isa = PBXGroup;
+			children = (
+				607476EC18A726EC007D8FFC /* STARAppDelegate.h */,
+				607476ED18A726EC007D8FFC /* STARAppDelegate.m */,
+				6074770C18A72743007D8FFC /* Main.storyboard */,
+				607476EF18A726EC007D8FFC /* Images.xcassets */,
+				607476E418A726EC007D8FFC /* Supporting Files */,
+			);
+			path = STARnote;
+			sourceTree = "<group>";
+		};
+		607476E418A726EC007D8FFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6079640C18A72B09000F6AD0 /* star_gold_256.png */,
+				607476E518A726EC007D8FFC /* STARnote-Info.plist */,
+				607476E618A726EC007D8FFC /* InfoPlist.strings */,
+				607476E918A726EC007D8FFC /* main.m */,
+				607476EB18A726EC007D8FFC /* STARnote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607476FC18A726EC007D8FFC /* STARnoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6074770218A726EC007D8FFC /* STARnoteTests.m */,
+				607476FD18A726EC007D8FFC /* Supporting Files */,
+			);
+			path = STARnoteTests;
+			sourceTree = "<group>";
+		};
+		607476FD18A726EC007D8FFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607476FE18A726EC007D8FFC /* STARnoteTests-Info.plist */,
+				607476FF18A726EC007D8FFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607476D918A726EC007D8FFC /* STARnote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6074770618A726EC007D8FFC /* Build configuration list for PBXNativeTarget "STARnote" */;
+			buildPhases = (
+				607476D618A726EC007D8FFC /* Sources */,
+				607476D718A726EC007D8FFC /* Frameworks */,
+				607476D818A726EC007D8FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STARnote;
+			productName = STARnote;
+			productReference = 607476DA18A726EC007D8FFC /* STARnote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607476F418A726EC007D8FFC /* STARnoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6074770918A726EC007D8FFC /* Build configuration list for PBXNativeTarget "STARnoteTests" */;
+			buildPhases = (
+				607476F118A726EC007D8FFC /* Sources */,
+				607476F218A726EC007D8FFC /* Frameworks */,
+				607476F318A726EC007D8FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607476FB18A726EC007D8FFC /* PBXTargetDependency */,
+			);
+			name = STARnoteTests;
+			productName = STARnoteTests;
+			productReference = 607476F518A726EC007D8FFC /* STARnoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607476D218A726EC007D8FFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STAR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Melvin Laguren";
+				TargetAttributes = {
+					607476F418A726EC007D8FFC = {
+						TestTargetID = 607476D918A726EC007D8FFC;
+					};
+				};
+			};
+			buildConfigurationList = 607476D518A726EC007D8FFC /* Build configuration list for PBXProject "STARnote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 607476D118A726EC007D8FFC;
+			productRefGroup = 607476DB18A726EC007D8FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607476D918A726EC007D8FFC /* STARnote */,
+				607476F418A726EC007D8FFC /* STARnoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607476D818A726EC007D8FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6074770D18A72743007D8FFC /* Main.storyboard in Resources */,
+				607476E818A726EC007D8FFC /* InfoPlist.strings in Resources */,
+				607476F018A726EC007D8FFC /* Images.xcassets in Resources */,
+				6079640D18A72B09000F6AD0 /* star_gold_256.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607476F318A726EC007D8FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6074770118A726EC007D8FFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607476D618A726EC007D8FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607476EE18A726EC007D8FFC /* STARAppDelegate.m in Sources */,
+				607476EA18A726EC007D8FFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607476F118A726EC007D8FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6074770318A726EC007D8FFC /* STARnoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607476FB18A726EC007D8FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607476D918A726EC007D8FFC /* STARnote */;
+			targetProxy = 607476FA18A726EC007D8FFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607476E618A726EC007D8FFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607476E718A726EC007D8FFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		607476FF18A726EC007D8FFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6074770018A726EC007D8FFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6074770418A726EC007D8FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6074770518A726EC007D8FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6074770718A726EC007D8FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STARnote/STARnote-Prefix.pch";
+				INFOPLIST_FILE = "STARnote/STARnote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6074770818A726EC007D8FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STARnote/STARnote-Prefix.pch";
+				INFOPLIST_FILE = "STARnote/STARnote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6074770A18A726EC007D8FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STARnote.app/STARnote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STARnote/STARnote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "STARnoteTests/STARnoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6074770B18A726EC007D8FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STARnote.app/STARnote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STARnote/STARnote-Prefix.pch";
+				INFOPLIST_FILE = "STARnoteTests/STARnoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607476D518A726EC007D8FFC /* Build configuration list for PBXProject "STARnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6074770418A726EC007D8FFC /* Debug */,
+				6074770518A726EC007D8FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6074770618A726EC007D8FFC /* Build configuration list for PBXNativeTarget "STARnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6074770718A726EC007D8FFC /* Debug */,
+				6074770818A726EC007D8FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6074770918A726EC007D8FFC /* Build configuration list for PBXNativeTarget "STARnoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6074770A18A726EC007D8FFC /* Debug */,
+				6074770B18A726EC007D8FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607476D218A726EC007D8FFC /* Project object */;
+}

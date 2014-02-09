@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E03796A4-AA2E-49BB-A16E-38B00ED19F25</string>
+	<key>IDESourceControlProjectName</key>
+	<string>STARnote</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D739705B-03FE-448C-8D75-503F1C296736</key>
+		<string>ssh://github.com/mlaguren/STARnotes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/STARnote/STARnote.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D739705B-03FE-448C-8D75-503F1C296736</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/mlaguren/STARnotes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D739705B-03FE-448C-8D75-503F1C296736</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D739705B-03FE-448C-8D75-503F1C296736</string>
+			<key>IDESourceControlWCCName</key>
+			<string>STARnotes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
