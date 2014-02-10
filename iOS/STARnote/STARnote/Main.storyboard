@@ -141,7 +141,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Situation" id="UMZ-SI-ntj"/>
+                    <tabBarItem key="tabBarItem" title="Situation" id="UMZ-SI-ntj" userLabel="Situation"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vgo-jW-H3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -220,7 +220,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Task" id="894-ZZ-Mco"/>
+                    <tabBarItem key="tabBarItem" title="Task" id="894-ZZ-Mco" userLabel="Task"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iOx-od-Hh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
