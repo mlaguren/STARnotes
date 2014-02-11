@@ -134,12 +134,16 @@
                                 <rect key="frame" x="0.0" y="63" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" label="Situation">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <string key="text">Describe the situation that you were in or the task that you needed to accomplish. You must describe a specific event or situation, not a generalized description of what you have done in the past. Be sure to give enough detail for the interviewer to understand. This situation can be from a previous job, from a volunteer experience, or any relevant event.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <accessibility key="accessibilityConfiguration" label=""/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Situation" id="UMZ-SI-ntj" userLabel="Situation"/>
                 </viewController>
@@ -152,7 +156,7 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="Rdm-aC-9uP" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="ZUp-jU-4QM"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="JDY-63-szf">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
