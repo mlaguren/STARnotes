@@ -10,3 +10,5 @@ The S.T.A.R. method is defined as the following:
 * **R**esults
 
 Refer to the [wiki](https://github.com/mlaguren/STARnotes/wiki) for more details
+
+Powerpoint from MeetUp
