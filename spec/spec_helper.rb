@@ -20,4 +20,5 @@ $capabilities = {
   'app' => absolute_app_path
 }
 
-$server_url = "http://127.0.0.1:4723/wd/hub"
+#$server_url = "http://127.0.0.1:4723/wd/hub"
+$server_url = "http://0.0.0.0:4723/wd/hub"
