@@ -11,4 +11,4 @@ The S.T.A.R. method is defined as the following:
 
 Refer to the [wiki](https://github.com/mlaguren/STARnotes/wiki) for more details
 
-Powerpoint from MeetUp https://docs.google.com/presentation/d/1ku1mh3_KYiaa2JQMxYVZU56Z9PkzUHJVBGszkNwDgcM/edit?usp=sharing
+Appium MeetUp Powerpoint (February 12, 2014) - http://bit.ly/1g8caPz
