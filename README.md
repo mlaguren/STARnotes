@@ -17,7 +17,8 @@ TO DO
 =====
 
 [x] Initial README<br>
-[x] Initial STARnote setup with a few tests running in Jenkins
-[ ] Break STARnotes into submodules
-[ ] Setup to run in Sauce Labs
-[ ] Create Android App
+[x] Initial STARnote setup with a few tests running in Jenkins<br>
+[ ] Break STARnotes into submodules<br>
+[ ] Setup to run in Sauce Labs<br>
+[ ] Create Android App<br>
+[ ] Add Jenkins Script to Repo
