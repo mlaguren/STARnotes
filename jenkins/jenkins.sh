@@ -8,5 +8,6 @@ pwd
 ruby -v
 node --version
 appium -v
+appium &
 bundle install
 bundle exec rspec spec/star_method.rb -f JUnit -o results.xml
