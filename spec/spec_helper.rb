@@ -3,7 +3,7 @@ require 'rspec'
 require 'selenium-webdriver'
 
 #APP_PATH = '../iOS/STARnote/DerivedData/STARnote/Build/Products/Release-iphonesimulator/STARnote.app'
-APP_PATH = '../app_test/STARnote.app'
+APP_PATH = '../iOS/STARnote/app_test/STARnote.app'
 
 def absolute_app_path
     file = File.expand_path(APP_PATH, File.dirname(__FILE__))
