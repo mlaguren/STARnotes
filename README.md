@@ -12,3 +12,12 @@ The S.T.A.R. method is defined as the following:
 Refer to the [wiki](https://github.com/mlaguren/STARnotes/wiki) for more details
 
 Appium MeetUp Powerpoint (February 12, 2014) - http://bit.ly/1g8caPz
+
+TO DO
+=====
+
+[x] Initial README<br>
+[x] Initial STARnote setup with a few tests running in Jenkins
+[ ] Break STARnotes into submodules
+[ ] Setup to run in Sauce Labs
+
