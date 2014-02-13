@@ -22,3 +22,5 @@ TO DO
 [ ] Setup to run in Sauce Labs<br>
 [ ] Create Android App<br>
 [ ] Add Jenkins Script to Repo
+[ ] Create Feature Files
+[ ] Include Jenkins Jobs to repo
