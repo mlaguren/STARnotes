@@ -30,8 +30,14 @@ describe "STAR Method Screens" do
     p situation_text.methods
   end 
 
-  it "displays the correct_information for the Task Screen" do
+  it "displays the correct information for the Task Screen" do
     button = @driver.find_element(:name, 'Task')
+    task_text = @driver.find_element(:tag_name, :textview)
+    p task_text.methods
+  end
+
+  it "displays the correct information for the Acton Screen" do
+    button = @driver.find_element(:name, 'Action')
     task_text = @driver.find_element(:tag_name, :textview)
     p task_text.methods
   end
