@@ -8,7 +8,6 @@ APP_PATH = '../iOS/STARnote/app_test/STARnote.app'
 def absolute_app_path
     file = File.expand_path(APP_PATH, File.dirname(__FILE__))
     raise "App doesn't exist #{file}" unless File.exist? file
-    p file
     file
 end
 
